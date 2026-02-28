@@ -1,0 +1,14 @@
+# Devnet configuration
+
+[network]
+listen_addr = "0.0.0.0:7070"
+bootstrap_peers = []
+
+[consensus]
+block_time_ms = 1000
+
+[storage]
+path = "/tmp/kessari-devnet"
+
+[rpc]
+listen_addr = "127.0.0.1:8080"

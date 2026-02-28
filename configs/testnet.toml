@@ -1,0 +1,17 @@
+# Testnet configuration
+
+[network]
+listen_addr = "0.0.0.0:7070"
+bootstrap_peers = [
+    "/dns4/testnet-boot1.kessari.io/tcp/7070",
+    "/dns4/testnet-boot2.kessari.io/tcp/7070",
+]
+
+[consensus]
+block_time_ms = 2000
+
+[storage]
+path = "/var/lib/kessari-testnet"
+
+[rpc]
+listen_addr = "127.0.0.1:8080"

@@ -1,0 +1,16 @@
+[package]
+name = "node"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "kessari-node"
+path = "main.rs"
+
+[dependencies]
+kessari-core = { path = "../crates/kessari-core" }
+kessari-consensus = { path = "../crates/kessari-consensus" }
+kessari-network = { path = "../crates/kessari-network" }
+kessari-storage = { path = "../crates/kessari-storage" }
+kessari-crypto = { path = "../crates/kessari-crypto" }
+kessari-rpc = { path = "../crates/kessari-rpc" }

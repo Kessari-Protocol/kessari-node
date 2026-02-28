@@ -1,0 +1,17 @@
+# Mainnet configuration
+
+[network]
+listen_addr = "0.0.0.0:7070"
+bootstrap_peers = [
+    "/dns4/mainnet-boot1.kessari.io/tcp/7070",
+    "/dns4/mainnet-boot2.kessari.io/tcp/7070",
+]
+
+[consensus]
+block_time_ms = 2000
+
+[storage]
+path = "/var/lib/kessari"
+
+[rpc]
+listen_addr = "127.0.0.1:8080"
