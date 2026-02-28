@@ -1,0 +1,7 @@
+[package]
+name = "kessari-consensus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kessari-core = { path = "../kessari-core" }

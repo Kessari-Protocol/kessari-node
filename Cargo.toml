@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "crates/kessari-core",
+    "crates/kessari-consensus",
+    "crates/kessari-network",
+    "crates/kessari-storage",
+    "crates/kessari-crypto",
+    "crates/kessari-rpc",
+    "node",
+]
+resolver = "2"
